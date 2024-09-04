@@ -13,3 +13,7 @@
 
 + `zsh-autosuggestions`
 + `zsh-syntax-highlighting`
++ `sudo`
+
+### 默认主题
++ `powerlevel10k`
