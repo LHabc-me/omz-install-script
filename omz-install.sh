@@ -43,7 +43,6 @@ chsh -s $(which zsh)
 
 # Pause to allow user to manually start a zsh session
 echo "Please start a zsh session and then press Enter to continue..."
-read -p "Press Enter to continue after starting zsh..."
 
 # Check if Oh My Zsh is already installed in the user's home directory
 if [ -d "$HOME/.oh-my-zsh" ]; then
@@ -87,7 +86,6 @@ sed -i 's/^ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~
 
 # Pause to allow user to inspect changes or run any additional commands
 echo "You may now inspect the changes or run any additional commands."
-read -p "Press Enter to apply the changes and finish the installation..."
 
 # Source ~/.zshrc to apply changes
 echo "Applying changes by sourcing ~/.zshrc..."
